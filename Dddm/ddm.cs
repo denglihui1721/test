@@ -27,7 +27,7 @@ namespace tl3d.Dddm
                 int ret = sDm.Reg("xingming26778e0c965e7aea1a35a08a1b7981cf", "");
                 if (ret != 1)
                 {
-                    MessageBox.Show("dm reg faile ! "+ret);
+                    MessageBox.Show("dm reg faile !! "+ret);
                 }
             }
             return sDm;
